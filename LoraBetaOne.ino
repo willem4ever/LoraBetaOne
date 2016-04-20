@@ -1,10 +1,10 @@
 
 #include <Wire.h>
-#include <ublox.h>
+#include "ublox.h"
 #include <stdio.h>
 #include <stdarg.h>
 #include "MyTime.h"
-#include <Sodaq_RN2483.h>
+#include "Sodaq_RN2483.h"
 
 
 #define loraSerial Serial1
